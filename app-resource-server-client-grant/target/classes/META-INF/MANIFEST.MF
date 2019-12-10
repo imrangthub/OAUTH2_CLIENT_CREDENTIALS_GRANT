@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: app-resource-server-client-grant
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: USER
+Implementation-Vendor-Id: com.madbarsoft
+Build-Jdk: 1.8.0_65
+Implementation-URL: http://projects.spring.io/spring-boot/app-resource
+ -server-client-grant/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
