@@ -22,7 +22,7 @@ public class AuthorizationServer extends AuthorizationServerConfigurerAdapter {
 
 	@Override
 	public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
-		clients.inMemory().withClient("madbarsoft-clientOne").secret("madbarsoft-secretForOne")
+		clients.inMemory().withClient("madbarsoft-clientOne").secret("madbarsoft-secretForClientOne")
 				.authorizedGrantTypes("client_credentials").scopes("resource-server-read", "resource-server-write");
 	}
 }
